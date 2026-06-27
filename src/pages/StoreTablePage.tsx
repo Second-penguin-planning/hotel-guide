@@ -20,8 +20,7 @@ export default function StoreTablePage() {
   const { lang } = useLang()
   const [active, setActive] = useState(0)
 
-  const embedUrl =
-    PUB_BASE + '?gid=' + HOTELS[active].gid + '&single=true&widget=false&headers=false&chrome=false'
+  const embedUrl = PUB_BASE + '?widget=true&headers=false'
 
   const openUrl =
     'https://docs.google.com/spreadsheets/d/' + SHEET_ID + '/view'
