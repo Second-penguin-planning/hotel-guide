@@ -1,0 +1,14 @@
+{
+  "last_release": "2026-06-17.0",
+  "last_run": "2026-06-27T01:06:09.933575+00:00",
+  "theme": "places",
+  "type": "place",
+  "bbox": {
+    "xmin": 135.482,
+    "ymin": 34.695,
+    "xmax": 135.515,
+    "ymax": 34.718
+  },
+  "backend": "geojson",
+  "output": "C:\\Users\\tokun\\hotel-guide\\scripts\\osaka_places.geojson"
+}

@@ -41,7 +41,7 @@ export default function StoreListPage() {
   const backPath = '/hotel/' + hotelId
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-slate-50">
       <Header showBack backTo={backPath} backLabel={t('backToCategories')} />
       <main className="max-w-2xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between mb-4">
@@ -52,7 +52,7 @@ export default function StoreListPage() {
             <p className="text-xs text-gray-500">{hotel.name[lang]}</p>
           </div>
           <button onClick={() => setShowFilters(!showFilters)}
-            className={showFilters ? 'flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium bg-red-600 text-white' : 'flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium bg-white text-gray-600 border border-gray-200'}>
+            className={showFilters ? 'flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium bg-brand-600 text-white' : 'flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium bg-white text-gray-600 border border-gray-200'}>
             <SlidersHorizontal size={15} />{t('search')}
           </button>
         </div>
@@ -62,7 +62,7 @@ export default function StoreListPage() {
             <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
             <input type="text" placeholder={t('searchPlaceholder')} value={filters.keyword}
               onChange={e => setFilters(f => ({ ...f, keyword: e.target.value }))}
-              className="w-full pl-9 pr-9 py-2.5 rounded-xl border border-gray-200 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-red-400" />
+              className="w-full pl-9 pr-9 py-2.5 rounded-xl border border-gray-200 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-brand-400" />
             {filters.keyword && (
               <button onClick={() => setFilters(f => ({ ...f, keyword: '' }))} className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
                 <X size={15} />
