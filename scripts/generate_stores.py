@@ -206,6 +206,15 @@ def parse_category(props: dict) -> str | None:
     return CATEGORY_MAP.get(primary)
 
 
+# 梅田・中津エリアに実在しないと思われる名称キーワード（他都市・遠方スポット）
+EXCLUDE_KEYWORDS = [
+    '神戸', '京都', '奈良', '広島', '東京', '名古屋', '福岡', '札幌', '沖縄',
+    '横浜', '鎌倉', '箱根', '浅草', '新宿', '渋谷', '上野', '銀座',
+    '難波', 'なんば', '心斎橋', '天王寺', '新世界', '通天閣',  # 梅田から遠い大阪市内
+    '異人館', '有馬温泉', '六甲', 'USJ', 'ユニバーサル',
+    '伊勢', '奥飛騨', '白川郷', '富士', '日光',
+]
+
 def build_store_entry(feat: dict, app_cat: str, idx: int) -> dict | None:
     props = feat.get("properties", {})
     geom  = feat.get("geometry", {})
@@ -216,6 +225,11 @@ def build_store_entry(feat: dict, app_cat: str, idx: int) -> dict | None:
 
     ja_name, en_name = parse_name(props)
     if not ja_name:
+        return None
+
+    # 他都市・遠方スポット名を含む場合は除外
+    full_name = ja_name + en_name
+    if any(kw in full_name for kw in EXCLUDE_KEYWORDS):
         return None
 
     ja_addr, en_addr = parse_address(props)

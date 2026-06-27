@@ -707,21 +707,6 @@ export const stores: Store[] = [
     notes: { en: '', ja: '', 'zh-TW': '', ko: '', tl: '' }, active: true
   },
   {
-    id: '新世界串カツ-いっとく-阪急梅田かっぱ横丁店-524',
-    hotelIds: ['toyoko-umeda-east', 'toyoko-umeda-nakatsu'],
-    categoryId: 'restaurant',
-    name: { en: '新世界串カツ いっとく 阪急梅田かっぱ横丁店', ja: '新世界串カツ いっとく 阪急梅田かっぱ横丁店', 'zh-TW': '新世界串カツ いっとく 阪急梅田かっぱ横丁店', ko: '新世界串カツ いっとく 阪急梅田かっぱ横丁店', tl: '新世界串カツ いっとく 阪急梅田かっぱ横丁店' },
-    phone: '+81663719499', address: { en: '大阪府大阪市北区芝田１丁目７−２', ja: '大阪府大阪市北区芝田１丁目７−２', 'zh-TW': '大阪府大阪市北区芝田１丁目７−２', ko: '大阪府大阪市北区芝田１丁目７−２', tl: '大阪府大阪市北区芝田１丁目７−２' },
-    lat: 34.70736, lng: 135.497968,
-    walkMinutes: { 'toyoko-umeda-east': 7, 'toyoko-umeda-nakatsu': 2 },
-    hours: '', closedDays: { en: 'None', ja: 'なし', 'zh-TW': '無', ko: '없음', tl: 'Wala' },
-    priceRange: '¥¥', languages: [],
-    halal: false, vegetarian: false,
-    sponsored: false, recommended: false,
-    photos: [], googleMapUrl: 'https://maps.google.com/?q=新世界串カツ いっとく 阪急梅田かっぱ横丁店+大阪', website: 'https://www.to-kosan.com/store/hankyu3.html', 
-    notes: { en: '', ja: '', 'zh-TW': '', ko: '', tl: '' }, active: true
-  },
-  {
     id: '麺乃庄-つるまる饂飩-阪急かっぱ横丁-525',
     hotelIds: ['toyoko-umeda-east', 'toyoko-umeda-nakatsu'],
     categoryId: 'restaurant',
@@ -749,6 +734,21 @@ export const stores: Store[] = [
     halal: false, vegetarian: false,
     sponsored: false, recommended: false,
     photos: [], googleMapUrl: 'https://maps.google.com/?q=ぼてぢゅう かっぱ横丁店+大阪', website: 'http://www.botejyu.co.jp/index1.html', 
+    notes: { en: '', ja: '', 'zh-TW': '', ko: '', tl: '' }, active: true
+  },
+  {
+    id: '古潭老麺-かっぱ横丁店-528',
+    hotelIds: ['toyoko-umeda-east', 'toyoko-umeda-nakatsu'],
+    categoryId: 'restaurant',
+    name: { en: '古潭老麺 かっぱ横丁店', ja: '古潭老麺 かっぱ横丁店', 'zh-TW': '古潭老麺 かっぱ横丁店', ko: '古潭老麺 かっぱ横丁店', tl: '古潭老麺 かっぱ横丁店' },
+    phone: '+81663730718', address: { en: '大阪府大阪市北区芝田１丁目７−２', ja: '大阪府大阪市北区芝田１丁目７−２', 'zh-TW': '大阪府大阪市北区芝田１丁目７−２', ko: '大阪府大阪市北区芝田１丁目７−２', tl: '大阪府大阪市北区芝田１丁目７−２' },
+    lat: 34.707367, lng: 135.497966,
+    walkMinutes: { 'toyoko-umeda-east': 7, 'toyoko-umeda-nakatsu': 2 },
+    hours: '', closedDays: { en: 'None', ja: 'なし', 'zh-TW': '無', ko: '없음', tl: 'Wala' },
+    priceRange: '¥¥', languages: [],
+    halal: false, vegetarian: false,
+    sponsored: false, recommended: false,
+    photos: [], googleMapUrl: 'https://maps.google.com/?q=古潭老麺 かっぱ横丁店+大阪', website: 'http://www.ramen-kotan.co.jp', 
     notes: { en: '', ja: '', 'zh-TW': '', ko: '', tl: '' }, active: true
   },
   {
@@ -1052,21 +1052,6 @@ export const stores: Store[] = [
     notes: { en: '', ja: '', 'zh-TW': '', ko: '', tl: '' }, active: true
   },
   {
-    id: '沖縄物産展阪急梅田本店-423',
-    hotelIds: ['toyoko-umeda-east', 'toyoko-umeda-nakatsu'],
-    categoryId: 'shopping',
-    name: { en: '沖縄物産展阪急梅田本店', ja: '沖縄物産展阪急梅田本店', 'zh-TW': '沖縄物産展阪急梅田本店', ko: '沖縄物産展阪急梅田本店', tl: '沖縄物産展阪急梅田本店' },
-    address: { en: '大阪市北区, JP', ja: '大阪市北区', 'zh-TW': '大阪市北区', ko: '大阪市北区, JP', tl: '大阪市北区, JP' },
-    lat: 34.706558, lng: 135.499837,
-    walkMinutes: { 'toyoko-umeda-east': 5, 'toyoko-umeda-nakatsu': 4 },
-    hours: '', closedDays: { en: 'None', ja: 'なし', 'zh-TW': '無', ko: '없음', tl: 'Wala' },
-    priceRange: '¥¥', languages: [],
-    halal: false, vegetarian: false,
-    sponsored: false, recommended: true,
-    photos: [], googleMapUrl: 'https://maps.google.com/?q=沖縄物産展阪急梅田本店+大阪', 
-    notes: { en: '', ja: '', 'zh-TW': '', ko: '', tl: '' }, active: true
-  },
-  {
     id: 'loftman-coop-梅田-585',
     hotelIds: ['toyoko-umeda-east', 'toyoko-umeda-nakatsu'],
     categoryId: 'shopping',
@@ -1107,7 +1092,7 @@ export const stores: Store[] = [
     hours: '', closedDays: { en: 'None', ja: 'なし', 'zh-TW': '無', ko: '없음', tl: 'Wala' },
     priceRange: '¥¥', languages: [],
     halal: false, vegetarian: false,
-    sponsored: false, recommended: false,
+    sponsored: false, recommended: true,
     photos: [], googleMapUrl: 'https://maps.google.com/?q=G-Star Raw 梅田+大阪', website: 'https://www.g-star.com/stores/jp/g-star-raw-store-osaka-umeda', 
     notes: { en: '', ja: '', 'zh-TW': '', ko: '', tl: '' }, active: true
   },
@@ -1124,6 +1109,21 @@ export const stores: Store[] = [
     halal: false, vegetarian: false,
     sponsored: false, recommended: false,
     photos: [], googleMapUrl: 'https://maps.google.com/?q=ドゥブルベー〈W-dubleve〉+大阪', website: 'http://www.w-dubleve.jp/', 
+    notes: { en: '', ja: '', 'zh-TW': '', ko: '', tl: '' }, active: true
+  },
+  {
+    id: 'candystripper-805',
+    hotelIds: ['toyoko-umeda-east', 'toyoko-umeda-nakatsu'],
+    categoryId: 'shopping',
+    name: { en: 'CandyStripper', ja: 'CandyStripper', 'zh-TW': 'CandyStripper', ko: 'CandyStripper', tl: 'CandyStripper' },
+    phone: '+81663761588', address: { en: '大阪府大阪市北区角田町３−２５', ja: '大阪府大阪市北区角田町３−２５', 'zh-TW': '大阪府大阪市北区角田町３−２５', ko: '大阪府大阪市北区角田町３−２５', tl: '大阪府大阪市北区角田町３−２５' },
+    lat: 34.705148, lng: 135.501038,
+    walkMinutes: { 'toyoko-umeda-east': 3, 'toyoko-umeda-nakatsu': 6 },
+    hours: '', closedDays: { en: 'None', ja: 'なし', 'zh-TW': '無', ko: '없음', tl: 'Wala' },
+    priceRange: '¥¥', languages: [],
+    halal: false, vegetarian: false,
+    sponsored: false, recommended: false,
+    photos: [], googleMapUrl: 'https://maps.google.com/?q=CandyStripper+大阪', 
     notes: { en: '', ja: '', 'zh-TW': '', ko: '', tl: '' }, active: true
   },
   {
@@ -1202,21 +1202,6 @@ export const stores: Store[] = [
     notes: { en: '', ja: '', 'zh-TW': '', ko: '', tl: '' }, active: true
   },
   {
-    id: '神戶北野異人館-1256',
-    hotelIds: ['toyoko-umeda-east', 'toyoko-umeda-nakatsu'],
-    categoryId: 'tourist',
-    name: { en: '神戶北野異人館', ja: '神戶北野異人館', 'zh-TW': '神戶北野異人館', ko: '神戶北野異人館', tl: '神戶北野異人館' },
-    address: { en: 'Kobe 中央区北野町3-1-31', ja: 'Kobe 中央区北野町3-1-31', 'zh-TW': 'Kobe 中央区北野町3-1-31', ko: 'Kobe 中央区北野町3-1-31', tl: 'Kobe 中央区北野町3-1-31' },
-    lat: 34.704251, lng: 135.502461,
-    walkMinutes: { 'toyoko-umeda-east': 1, 'toyoko-umeda-nakatsu': 8 },
-    hours: '', closedDays: { en: 'None', ja: 'なし', 'zh-TW': '無', ko: '없음', tl: 'Wala' },
-    priceRange: '¥¥', languages: [],
-    halal: false, vegetarian: false,
-    sponsored: false, recommended: true,
-    photos: [], googleMapUrl: 'https://maps.google.com/?q=神戶北野異人館+大阪', website: 'http://www.kobeijinkan.com/', 
-    notes: { en: '', ja: '', 'zh-TW': '', ko: '', tl: '' }, active: true
-  },
-  {
     id: '梅田ジョイポリス-2331',
     hotelIds: ['toyoko-umeda-east', 'toyoko-umeda-nakatsu'],
     categoryId: 'tourist',
@@ -1257,7 +1242,7 @@ export const stores: Store[] = [
     hours: '', closedDays: { en: 'None', ja: 'なし', 'zh-TW': '無', ko: '없음', tl: 'Wala' },
     priceRange: '¥¥', languages: [],
     halal: false, vegetarian: false,
-    sponsored: false, recommended: false,
+    sponsored: false, recommended: true,
     photos: [], googleMapUrl: 'https://maps.google.com/?q=ギャラリー4匹の猫+大阪', website: 'http://4hikinoneko.com', 
     notes: { en: '', ja: '', 'zh-TW': '', ko: '', tl: '' }, active: true
   },
@@ -1274,6 +1259,21 @@ export const stores: Store[] = [
     halal: false, vegetarian: false,
     sponsored: false, recommended: false,
     photos: [], googleMapUrl: 'https://maps.google.com/?q=Y art gallery+大阪', website: 'http://www.yart-gallery.co.jp', 
+    notes: { en: '', ja: '', 'zh-TW': '', ko: '', tl: '' }, active: true
+  },
+  {
+    id: 'パークアベニュー堂山商店会-1405',
+    hotelIds: ['toyoko-umeda-east', 'toyoko-umeda-nakatsu'],
+    categoryId: 'tourist',
+    name: { en: 'パークアベニュー堂山商店会', ja: 'パークアベニュー堂山商店会', 'zh-TW': 'パークアベニュー堂山商店会', ko: 'パークアベニュー堂山商店会', tl: 'パークアベニュー堂山商店会' },
+    address: { en: '堂山町', ja: '堂山町', 'zh-TW': '堂山町', ko: '堂山町', tl: '堂山町' },
+    lat: 34.703708, lng: 135.502424,
+    walkMinutes: { 'toyoko-umeda-east': 1, 'toyoko-umeda-nakatsu': 9 },
+    hours: '', closedDays: { en: 'None', ja: 'なし', 'zh-TW': '無', ko: '없음', tl: 'Wala' },
+    priceRange: '¥¥', languages: [],
+    halal: false, vegetarian: false,
+    sponsored: false, recommended: false,
+    photos: [], googleMapUrl: 'https://maps.google.com/?q=パークアベニュー堂山商店会+大阪', website: 'http://higashirengo.sakura.ne.jp/db/map/parkavn', 
     notes: { en: '', ja: '', 'zh-TW': '', ko: '', tl: '' }, active: true
   },
   {
@@ -1343,10 +1343,9 @@ export const stores: Store[] = [
     hours: '24時間', closedDays: { en: 'None', ja: 'なし', 'zh-TW': '無', ko: '없음', tl: 'Wala' },
     languages: ['en'], halal: false, vegetarian: false,
     sponsored: false, recommended: true,
-    photos: [], googleMapUrl: 'https://maps.google.com/?q=弥栄自動車 梅田+大阪',
+    photos: [], googleMapUrl: 'https://maps.google.com/?q=弥栄自動車+梅田+大阪',
     notes: { en: '', ja: '', 'zh-TW': '', ko: '', tl: '' }, active: true
-  }
-  ,
+  },
   {
     id: 'seven-bank-atm-familymart',
     hotelIds: ['toyoko-umeda-east', 'toyoko-umeda-nakatsu'],
@@ -1404,7 +1403,7 @@ export const stores: Store[] = [
     notes: { en: 'Accepts Visa/Mastercard/UnionPay.', ja: 'Visa/MC/銀聯対応。', 'zh-TW': '支援Visa/MC/銀聯。', ko: 'Visa/MC/유니온페이 가능.', tl: 'Tanggap ng Visa/MC/UnionPay.' }, active: true
   },
   {
-    id: 'citibank-atm-umeda',
+    id: 'seven-eleven-atm-umeda',
     hotelIds: ['toyoko-umeda-east', 'toyoko-umeda-nakatsu'],
     categoryId: 'atm',
     name: { en: '7-Eleven ATM (Umeda)', ja: 'セブンイレブン梅田ATM', 'zh-TW': '7-Eleven 梅田ATM', ko: '세븐일레븐 우메다 ATM', tl: '7-Eleven ATM (Umeda)' },
