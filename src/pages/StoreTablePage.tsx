@@ -7,7 +7,7 @@ const SHEET_ID = '1ywTeDERoK2cXAqsBOLXI3UzZPdCPHKrTovOg0XqoR58'
 
 const HOTELS = [
   { label: '東横イン大阪梅田東',  gid: '0' },
-  { label: '東横イン梅田中津Ⅰ', gid: '1829455280' },
+  { label: '東横イン梅田中津Ⅰ', gid: '372507488' },
 ]
 
 const LABELS: Record<string, Record<string, string>> = {
