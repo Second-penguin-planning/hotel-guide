@@ -3,6 +3,7 @@ import { ExternalLink } from 'lucide-react'
 import { useLang } from '../context/LanguageContext'
 import Header from '../components/Header'
 
+const PUB_BASE = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQdUgYZP_qDCSADSbBRLRN8QYZnohkwFfztT1K5m2OJQBFwmn3ysr1OYkFQFbDiqhM9PyR7okk5C03v/pubhtml'
 const SHEET_ID = '1ywTeDERoK2cXAqsBOLXI3UzZPdCPHKrTovOg0XqoR58'
 
 const HOTELS = [
@@ -20,8 +21,7 @@ export default function StoreTablePage() {
   const [active, setActive] = useState(0)
 
   const embedUrl =
-    'https://docs.google.com/spreadsheets/d/' + SHEET_ID +
-    '/pubhtml?gid=' + HOTELS[active].gid + '&single=true&widget=false&headers=false&chrome=false'
+    PUB_BASE + '?gid=' + HOTELS[active].gid + '&single=true&widget=false&headers=false&chrome=false'
 
   const openUrl =
     'https://docs.google.com/spreadsheets/d/' + SHEET_ID + '/view'
