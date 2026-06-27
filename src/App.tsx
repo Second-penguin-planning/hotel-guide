@@ -6,6 +6,7 @@ import StoreListPage from './pages/StoreListPage'
 import StoreDetailPage from './pages/StoreDetailPage'
 import FlyerPage from './pages/FlyerPage'
 import AdminPage from './pages/AdminPage'
+import StoreTablePage from './pages/StoreTablePage'
 export default function App() {
   return (
     <LanguageProvider>
@@ -17,6 +18,7 @@ export default function App() {
           <Route path='/store/:storeId' element={<StoreDetailPage />} />
           <Route path='/store/:storeId/flyer' element={<FlyerPage />} />
           <Route path='/admin' element={<AdminPage />} />
+          <Route path='/store-table' element={<StoreTablePage />} />
         </Routes>
       </HashRouter>
     </LanguageProvider>

@@ -1,5 +1,5 @@
-import { useNavigate } from 'react-router-dom'
-import { MapPin, Phone, ChevronRight } from 'lucide-react'
+import { useNavigate, Link } from 'react-router-dom'
+import { MapPin, Phone, ChevronRight, Table2 } from 'lucide-react'
 import { useLang } from '../context/LanguageContext'
 import { hotels } from '../data'
 import Header from '../components/Header'
@@ -71,8 +71,16 @@ export default function HotelSelectPage() {
           ))}
         </div>
 
-        {/* Footer note */}
-        <p className="text-center text-xs text-gray-400 mt-8">
+        {/* Store table link */}
+        <Link
+          to="/store-table"
+          className="mt-6 flex items-center justify-center gap-2 w-full py-3 rounded-xl border-2 border-brand-200 text-brand-600 font-semibold text-sm hover:bg-brand-50 transition-colors"
+        >
+          <Table2 size={16} />
+          周辺店舗 一覧表を見る
+        </Link>
+
+        <p className="text-center text-xs text-gray-400 mt-6">
           Powered by Toyoko Inn Group
         </p>
       </main>
